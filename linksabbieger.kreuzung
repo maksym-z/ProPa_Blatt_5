@@ -1,0 +1,26 @@
+C r r l
+D1 r
+D2 l l
+
+Die Kreuzung ist leer nach 67 Sekunden:
+1. - 4. Phase: niemand fährt (bis Sekunde 50)
+5. Phase:
+ Sekunde 50:
+ - vorne auf C steht ein Linksabbieger,
+   der darauf warten muss, dass D1 leer wird.
+ - Linksabbieger auf D2 fährt, weil Linksabbieger auf C die Gegenfahrbahn lange
+   genug blockiert
+ - Rechtsabbieger auf D1 fährt.
+ Sekunde 53:
+ - Rechtsabbieger auf D1 hat Kreuzung verlassen. Linksabbieger auf C darf nun.
+ - Linksabbieger auf D2 braucht noch eine Sekunde.
+ Sekunde 54:
+ - Linksabbieger auf D2 hat die Kreuzung verlassen. Nächster Linksabbieger kann
+   nicht losfahren, weil nach dem Linksabbieger auf C ein Rechtsabbieger kommt,
+   bevor der Linksabbieger auf D2 die Kreuzung verlassen hätte.
+ Sekunde 57:
+ - Linksabbieger auf C hat Kreuzung verlassen; die beiden Rechtsabbieger fahren.
+ Sekunde 63:
+ - C ist leer, zweiter Linksabbieger auf D2 fährt.
+ Sekunde 67:
+ - Linksabbieger auf D2 hat Kreuzung verlassen -> leer.

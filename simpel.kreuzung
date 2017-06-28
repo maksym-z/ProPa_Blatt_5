@@ -1,0 +1,9 @@
+A1 g r
+A2 l
+B1 g
+B2 l l
+
+Die Kreuzung ist leer nach 38 Sekunden:
+1. Phase (0s): A1 und B1 leeren sich.
+2. Phase (25s): rot
+3. Phase (30s): A2 und B2 leeren sich; B2 benötigt 8 Sekunden, danach leer.
